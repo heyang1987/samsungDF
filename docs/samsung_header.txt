@@ -1,0 +1,11 @@
+@relation 'iot_yang_fixed-weka.filters.unsupervised.attribute.Remove-R2-4,6-17-weka.filters.unsupervised.attribute.Reorder-R1,3-8,2-weka.filters.unsupervised.attribute.NumericToNominal-Rlast-weka.filters.unsupervised.attribute.Remove-R4'
+
+@attribute sessionId numeric
+@attribute whof {assis,tv,hvac,wash,secu,refr,light,alarm}
+@attribute purposef {preshouse,lochouse,opauto,alert}
+@attribute whatf {coalarm,locsens,colight,coassis,cohvac,cowash,micro,cotv,watch,corefri,cam,cosecu}
+@attribute cstore {share,remserv,locally}
+@attribute caction {reco,nothing,opti,insight}
+@attribute decision {0,1}
+
+@data

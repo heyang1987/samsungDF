@@ -1,0 +1,370 @@
+
+
+===============================================================================
+0.01	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.02	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.03	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.04	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.05	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.06	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.07	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.08	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.09	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.10	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.11	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.12	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.13	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.14	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.15	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.16	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.17	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.18	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.19	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.20	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.21	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.22	1	72.37
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.23	1	72.27
+J48 pruned tree
+------------------
+: 1 (3000.0/829.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.24	72	71.87
+J48 pruned tree
+------------------
+
+cstore = share
+|   whatf = cosecu: 1 (84.0/37.0)
+|   whatf = cohvac
+|   |   purposef = opauto: 1 (19.0/7.0)
+|   |   purposef = preshouse: 0 (19.0/8.0)
+|   |   purposef = alert: 1 (22.0/9.0)
+|   |   purposef = lochouse: 0 (23.0/9.0)
+|   whatf = micro: 1 (86.0/36.0)
+|   whatf = coalarm: 1 (81.0/34.0)
+|   whatf = cotv
+|   |   whof = tv: 0 (13.0/5.0)
+|   |   whof = secu: 0 (9.0)
+|   |   whof = light: 0 (7.0/1.0)
+|   |   whof = refr: 1 (7.0/2.0)
+|   |   whof = alarm
+|   |   |   purposef = opauto: 1 (4.0/1.0)
+|   |   |   purposef = preshouse: 0 (2.0)
+|   |   |   purposef = alert: 0 (3.0/1.0)
+|   |   |   purposef = lochouse: 1 (4.0/1.0)
+|   |   whof = assis: 0 (12.0/6.0)
+|   |   whof = wash: 0 (10.0/4.0)
+|   |   whof = hvac: 1 (10.0/1.0)
+|   whatf = corefri
+|   |   caction = insight: 1 (22.0/7.0)
+|   |   caction = nothing: 1 (23.0/11.0)
+|   |   caction = opti: 0 (18.0/6.0)
+|   |   caction = reco: 0 (19.0/9.0)
+|   whatf = watch: 1 (84.0/30.0)
+|   whatf = coassis
+|   |   caction = insight: 1 (23.0/10.0)
+|   |   caction = nothing: 1 (24.0/7.0)
+|   |   caction = opti: 1 (18.0/6.0)
+|   |   caction = reco: 0 (21.0/8.0)
+|   whatf = cam
+|   |   purposef = opauto: 0 (25.0/10.0)
+|   |   purposef = preshouse: 0 (14.0/7.0)
+|   |   purposef = alert: 1 (24.0/8.0)
+|   |   purposef = lochouse: 0 (19.0/7.0)
+|   whatf = cowash
+|   |   caction = insight: 0 (24.0/9.0)
+|   |   caction = nothing: 1 (22.0/5.0)
+|   |   caction = opti: 0 (21.0/9.0)
+|   |   caction = reco: 0 (18.0/7.0)
+|   whatf = colight
+|   |   whof = tv: 0 (12.0/3.0)
+|   |   whof = secu: 0 (8.0/2.0)
+|   |   whof = light
+|   |   |   purposef = opauto: 1 (4.0/1.0)
+|   |   |   purposef = preshouse: 1 (2.0)
+|   |   |   purposef = alert: 1 (3.0/1.0)
+|   |   |   purposef = lochouse: 0 (3.0)
+|   |   whof = refr: 0 (11.0/3.0)
+|   |   whof = alarm: 1 (6.0/2.0)
+|   |   whof = assis: 1 (12.0/5.0)
+|   |   whof = wash
+|   |   |   purposef = opauto: 1 (4.0/1.0)
+|   |   |   purposef = preshouse: 0 (3.0)
+|   |   |   purposef = alert: 1 (3.0/1.0)
+|   |   |   purposef = lochouse: 1 (3.0)
+|   |   whof = hvac: 1 (12.0/5.0)
+|   whatf = locsens
+|   |   whof = tv: 0 (6.0/1.0)
+|   |   whof = secu: 1 (13.0/4.0)
+|   |   whof = light: 1 (11.0/3.0)
+|   |   whof = refr: 0 (11.0/4.0)
+|   |   whof = alarm: 0 (11.0/4.0)
+|   |   whof = assis: 0 (9.0/2.0)
+|   |   whof = wash: 0 (10.0/3.0)
+|   |   whof = hvac: 1 (9.0/1.0)
+cstore = remserv: 1 (1000.0/207.0)
+cstore = locally: 1 (1000.0/153.0)
+
+Number of Leaves  : 	59
+
+Size of the tree : 	72
+
+0.25	72	71.9
+J48 pruned tree
+------------------
+
+cstore = share
+|   whatf = cosecu: 1 (84.0/37.0)
+|   whatf = cohvac
+|   |   purposef = opauto: 1 (19.0/7.0)
+|   |   purposef = preshouse: 0 (19.0/8.0)
+|   |   purposef = alert: 1 (22.0/9.0)
+|   |   purposef = lochouse: 0 (23.0/9.0)
+|   whatf = micro: 1 (86.0/36.0)
+|   whatf = coalarm: 1 (81.0/34.0)
+|   whatf = cotv
+|   |   whof = tv: 0 (13.0/5.0)
+|   |   whof = secu: 0 (9.0)
+|   |   whof = light: 0 (7.0/1.0)
+|   |   whof = refr: 1 (7.0/2.0)
+|   |   whof = alarm
+|   |   |   purposef = opauto: 1 (4.0/1.0)
+|   |   |   purposef = preshouse: 0 (2.0)
+|   |   |   purposef = alert: 0 (3.0/1.0)
+|   |   |   purposef = lochouse: 1 (4.0/1.0)
+|   |   whof = assis: 0 (12.0/6.0)
+|   |   whof = wash: 0 (10.0/4.0)
+|   |   whof = hvac: 1 (10.0/1.0)
+|   whatf = corefri
+|   |   caction = insight: 1 (22.0/7.0)
+|   |   caction = nothing: 1 (23.0/11.0)
+|   |   caction = opti: 0 (18.0/6.0)
+|   |   caction = reco: 0 (19.0/9.0)
+|   whatf = watch: 1 (84.0/30.0)
+|   whatf = coassis
+|   |   caction = insight: 1 (23.0/10.0)
+|   |   caction = nothing: 1 (24.0/7.0)
+|   |   caction = opti: 1 (18.0/6.0)
+|   |   caction = reco: 0 (21.0/8.0)
+|   whatf = cam
+|   |   purposef = opauto: 0 (25.0/10.0)
+|   |   purposef = preshouse: 0 (14.0/7.0)
+|   |   purposef = alert: 1 (24.0/8.0)
+|   |   purposef = lochouse: 0 (19.0/7.0)
+|   whatf = cowash
+|   |   caction = insight: 0 (24.0/9.0)
+|   |   caction = nothing: 1 (22.0/5.0)
+|   |   caction = opti: 0 (21.0/9.0)
+|   |   caction = reco: 0 (18.0/7.0)
+|   whatf = colight
+|   |   whof = tv: 0 (12.0/3.0)
+|   |   whof = secu: 0 (8.0/2.0)
+|   |   whof = light
+|   |   |   purposef = opauto: 1 (4.0/1.0)
+|   |   |   purposef = preshouse: 1 (2.0)
+|   |   |   purposef = alert: 1 (3.0/1.0)
+|   |   |   purposef = lochouse: 0 (3.0)
+|   |   whof = refr: 0 (11.0/3.0)
+|   |   whof = alarm: 1 (6.0/2.0)
+|   |   whof = assis: 1 (12.0/5.0)
+|   |   whof = wash
+|   |   |   purposef = opauto: 1 (4.0/1.0)
+|   |   |   purposef = preshouse: 0 (3.0)
+|   |   |   purposef = alert: 1 (3.0/1.0)
+|   |   |   purposef = lochouse: 1 (3.0)
+|   |   whof = hvac: 1 (12.0/5.0)
+|   whatf = locsens
+|   |   whof = tv: 0 (6.0/1.0)
+|   |   whof = secu: 1 (13.0/4.0)
+|   |   whof = light: 1 (11.0/3.0)
+|   |   whof = refr: 0 (11.0/4.0)
+|   |   whof = alarm: 0 (11.0/4.0)
+|   |   whof = assis: 0 (9.0/2.0)
+|   |   whof = wash: 0 (10.0/3.0)
+|   |   whof = hvac: 1 (9.0/1.0)
+cstore = remserv: 1 (1000.0/207.0)
+cstore = locally: 1 (1000.0/153.0)
+
+Number of Leaves  : 	59
+
+Size of the tree : 	72
+

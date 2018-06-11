@@ -1,0 +1,376 @@
+0.01	1	74.41
+J48 pruned tree
+------------------
+: 0 (1536.0/393.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.02	1	74.41
+J48 pruned tree
+------------------
+: 0 (1536.0/393.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.03	1	74.41
+J48 pruned tree
+------------------
+: 0 (1536.0/393.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.04	1	74.41
+J48 pruned tree
+------------------
+: 0 (1536.0/393.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.05	1	74.41
+J48 pruned tree
+------------------
+: 0 (1536.0/393.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.06	1	74.41
+J48 pruned tree
+------------------
+: 0 (1536.0/393.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.07	1	74.41
+J48 pruned tree
+------------------
+: 0 (1536.0/393.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.08	1	74.41
+J48 pruned tree
+------------------
+: 0 (1536.0/393.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.09	1	74.41
+J48 pruned tree
+------------------
+: 0 (1536.0/393.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.10	1	74.41
+J48 pruned tree
+------------------
+: 0 (1536.0/393.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.11	1	74.41
+J48 pruned tree
+------------------
+: 0 (1536.0/393.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.12	1	74.15
+J48 pruned tree
+------------------
+: 0 (1536.0/393.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.13	1	74.41
+J48 pruned tree
+------------------
+: 0 (1536.0/393.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.14	1	74.41
+J48 pruned tree
+------------------
+: 0 (1536.0/393.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.15	1	73.24
+J48 pruned tree
+------------------
+: 0 (1536.0/393.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.16	1	74.02
+J48 pruned tree
+------------------
+: 0 (1536.0/393.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.17	1	73.89
+J48 pruned tree
+------------------
+: 0 (1536.0/393.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+0.18	20	74.09
+J48 pruned tree
+------------------
+
+cstore = share: 0 (512.0/39.0)
+cstore = remserv: 0 (512.0/134.0)
+cstore = locally
+|   caction = insight: 0 (128.0/46.0)
+|   caction = nothing
+|   |   whatf = cosecu: 0 (10.0/3.0)
+|   |   whatf = cohvac: 1 (9.0/4.0)
+|   |   whatf = micro: 0 (12.0/4.0)
+|   |   whatf = coalarm: 1 (10.0/2.0)
+|   |   whatf = cotv: 0 (9.0/4.0)
+|   |   whatf = corefri: 0 (10.0/4.0)
+|   |   whatf = watch: 1 (10.0/3.0)
+|   |   whatf = coassis: 1 (13.0/6.0)
+|   |   whatf = cam: 0 (16.0/5.0)
+|   |   whatf = cowash: 1 (12.0/5.0)
+|   |   whatf = colight: 1 (9.0/1.0)
+|   |   whatf = locsens: 0 (8.0/2.0)
+|   caction = opti: 1 (128.0/54.0)
+|   caction = reco: 0 (128.0/36.0)
+
+Number of Leaves  : 	17
+
+Size of the tree : 	20
+
+0.19	20	73.96
+J48 pruned tree
+------------------
+
+cstore = share: 0 (512.0/39.0)
+cstore = remserv: 0 (512.0/134.0)
+cstore = locally
+|   caction = insight: 0 (128.0/46.0)
+|   caction = nothing
+|   |   whatf = cosecu: 0 (10.0/3.0)
+|   |   whatf = cohvac: 1 (9.0/4.0)
+|   |   whatf = micro: 0 (12.0/4.0)
+|   |   whatf = coalarm: 1 (10.0/2.0)
+|   |   whatf = cotv: 0 (9.0/4.0)
+|   |   whatf = corefri: 0 (10.0/4.0)
+|   |   whatf = watch: 1 (10.0/3.0)
+|   |   whatf = coassis: 1 (13.0/6.0)
+|   |   whatf = cam: 0 (16.0/5.0)
+|   |   whatf = cowash: 1 (12.0/5.0)
+|   |   whatf = colight: 1 (9.0/1.0)
+|   |   whatf = locsens: 0 (8.0/2.0)
+|   caction = opti: 1 (128.0/54.0)
+|   caction = reco: 0 (128.0/36.0)
+
+Number of Leaves  : 	17
+
+Size of the tree : 	20
+
+0.20	20	75.0
+J48 pruned tree
+------------------
+
+cstore = share: 0 (512.0/39.0)
+cstore = remserv: 0 (512.0/134.0)
+cstore = locally
+|   caction = insight: 0 (128.0/46.0)
+|   caction = nothing
+|   |   whatf = cosecu: 0 (10.0/3.0)
+|   |   whatf = cohvac: 1 (9.0/4.0)
+|   |   whatf = micro: 0 (12.0/4.0)
+|   |   whatf = coalarm: 1 (10.0/2.0)
+|   |   whatf = cotv: 0 (9.0/4.0)
+|   |   whatf = corefri: 0 (10.0/4.0)
+|   |   whatf = watch: 1 (10.0/3.0)
+|   |   whatf = coassis: 1 (13.0/6.0)
+|   |   whatf = cam: 0 (16.0/5.0)
+|   |   whatf = cowash: 1 (12.0/5.0)
+|   |   whatf = colight: 1 (9.0/1.0)
+|   |   whatf = locsens: 0 (8.0/2.0)
+|   caction = opti: 1 (128.0/54.0)
+|   caction = reco: 0 (128.0/36.0)
+
+Number of Leaves  : 	17
+
+Size of the tree : 	20
+
+0.21	20	73.96
+J48 pruned tree
+------------------
+
+cstore = share: 0 (512.0/39.0)
+cstore = remserv: 0 (512.0/134.0)
+cstore = locally
+|   caction = insight: 0 (128.0/46.0)
+|   caction = nothing
+|   |   whatf = cosecu: 0 (10.0/3.0)
+|   |   whatf = cohvac: 1 (9.0/4.0)
+|   |   whatf = micro: 0 (12.0/4.0)
+|   |   whatf = coalarm: 1 (10.0/2.0)
+|   |   whatf = cotv: 0 (9.0/4.0)
+|   |   whatf = corefri: 0 (10.0/4.0)
+|   |   whatf = watch: 1 (10.0/3.0)
+|   |   whatf = coassis: 1 (13.0/6.0)
+|   |   whatf = cam: 0 (16.0/5.0)
+|   |   whatf = cowash: 1 (12.0/5.0)
+|   |   whatf = colight: 1 (9.0/1.0)
+|   |   whatf = locsens: 0 (8.0/2.0)
+|   caction = opti: 1 (128.0/54.0)
+|   caction = reco: 0 (128.0/36.0)
+
+Number of Leaves  : 	17
+
+Size of the tree : 	20
+
+0.22	20	75.07
+J48 pruned tree
+------------------
+
+cstore = share: 0 (512.0/39.0)
+cstore = remserv: 0 (512.0/134.0)
+cstore = locally
+|   caction = insight: 0 (128.0/46.0)
+|   caction = nothing
+|   |   whatf = cosecu: 0 (10.0/3.0)
+|   |   whatf = cohvac: 1 (9.0/4.0)
+|   |   whatf = micro: 0 (12.0/4.0)
+|   |   whatf = coalarm: 1 (10.0/2.0)
+|   |   whatf = cotv: 0 (9.0/4.0)
+|   |   whatf = corefri: 0 (10.0/4.0)
+|   |   whatf = watch: 1 (10.0/3.0)
+|   |   whatf = coassis: 1 (13.0/6.0)
+|   |   whatf = cam: 0 (16.0/5.0)
+|   |   whatf = cowash: 1 (12.0/5.0)
+|   |   whatf = colight: 1 (9.0/1.0)
+|   |   whatf = locsens: 0 (8.0/2.0)
+|   caction = opti: 1 (128.0/54.0)
+|   caction = reco: 0 (128.0/36.0)
+
+Number of Leaves  : 	17
+
+Size of the tree : 	20
+
+0.23	20	75.26
+J48 pruned tree
+------------------
+
+cstore = share: 0 (512.0/39.0)
+cstore = remserv: 0 (512.0/134.0)
+cstore = locally
+|   caction = insight: 0 (128.0/46.0)
+|   caction = nothing
+|   |   whatf = cosecu: 0 (10.0/3.0)
+|   |   whatf = cohvac: 1 (9.0/4.0)
+|   |   whatf = micro: 0 (12.0/4.0)
+|   |   whatf = coalarm: 1 (10.0/2.0)
+|   |   whatf = cotv: 0 (9.0/4.0)
+|   |   whatf = corefri: 0 (10.0/4.0)
+|   |   whatf = watch: 1 (10.0/3.0)
+|   |   whatf = coassis: 1 (13.0/6.0)
+|   |   whatf = cam: 0 (16.0/5.0)
+|   |   whatf = cowash: 1 (12.0/5.0)
+|   |   whatf = colight: 1 (9.0/1.0)
+|   |   whatf = locsens: 0 (8.0/2.0)
+|   caction = opti: 1 (128.0/54.0)
+|   caction = reco: 0 (128.0/36.0)
+
+Number of Leaves  : 	17
+
+Size of the tree : 	20
+
+0.24	20	75.2
+J48 pruned tree
+------------------
+
+cstore = share: 0 (512.0/39.0)
+cstore = remserv: 0 (512.0/134.0)
+cstore = locally
+|   caction = insight: 0 (128.0/46.0)
+|   caction = nothing
+|   |   whatf = cosecu: 0 (10.0/3.0)
+|   |   whatf = cohvac: 1 (9.0/4.0)
+|   |   whatf = micro: 0 (12.0/4.0)
+|   |   whatf = coalarm: 1 (10.0/2.0)
+|   |   whatf = cotv: 0 (9.0/4.0)
+|   |   whatf = corefri: 0 (10.0/4.0)
+|   |   whatf = watch: 1 (10.0/3.0)
+|   |   whatf = coassis: 1 (13.0/6.0)
+|   |   whatf = cam: 0 (16.0/5.0)
+|   |   whatf = cowash: 1 (12.0/5.0)
+|   |   whatf = colight: 1 (9.0/1.0)
+|   |   whatf = locsens: 0 (8.0/2.0)
+|   caction = opti: 1 (128.0/54.0)
+|   caction = reco: 0 (128.0/36.0)
+
+Number of Leaves  : 	17
+
+Size of the tree : 	20
+
+0.25	20	75.72
+J48 pruned tree
+------------------
+
+cstore = share: 0 (512.0/39.0)
+cstore = remserv: 0 (512.0/134.0)
+cstore = locally
+|   caction = insight: 0 (128.0/46.0)
+|   caction = nothing
+|   |   whatf = cosecu: 0 (10.0/3.0)
+|   |   whatf = cohvac: 1 (9.0/4.0)
+|   |   whatf = micro: 0 (12.0/4.0)
+|   |   whatf = coalarm: 1 (10.0/2.0)
+|   |   whatf = cotv: 0 (9.0/4.0)
+|   |   whatf = corefri: 0 (10.0/4.0)
+|   |   whatf = watch: 1 (10.0/3.0)
+|   |   whatf = coassis: 1 (13.0/6.0)
+|   |   whatf = cam: 0 (16.0/5.0)
+|   |   whatf = cowash: 1 (12.0/5.0)
+|   |   whatf = colight: 1 (9.0/1.0)
+|   |   whatf = locsens: 0 (8.0/2.0)
+|   caction = opti: 1 (128.0/54.0)
+|   caction = reco: 0 (128.0/36.0)
+
+Number of Leaves  : 	17
+
+Size of the tree : 	20

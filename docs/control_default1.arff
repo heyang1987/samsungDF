@@ -1,0 +1,389 @@
+@relation control_13_1133-weka.filters.unsupervised.attribute.Remove-R2-weka.filters.unsupervised.attribute.NumericToNominal-R4-9-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.instance.RemoveWithValues-S2.0-C2-L1-V-weka.filters.unsupervised.instance.RemoveWithValues-S1.0-C2-L1-weka.filters.unsupervised.attribute.Remove-R2
+
+@attribute sessionId numeric
+@attribute whof {tv,watch,alarm,assis}
+@attribute purposef {pur}
+@attribute whatf {colight,cosecu,itself,cohvac,coalarm,corefri,coassis,cowash,cotv}
+@attribute cstore {Locally,'Third Party Share','Remote Server'}
+@attribute caction {insight,nothing,reco,opti}
+@attribute decision {0,1}
+
+@data
+3,watch,pur,cosecu,'Third Party Share',insight,0
+8,watch,pur,colight,Locally,nothing,1
+9,tv,pur,coalarm,'Third Party Share',reco,1
+10,watch,pur,corefri,'Third Party Share',reco,0
+16,tv,pur,cosecu,'Remote Server',nothing,1
+27,tv,pur,colight,'Third Party Share',opti,0
+35,alarm,pur,colight,Locally,nothing,1
+38,tv,pur,cohvac,'Remote Server',reco,1
+41,assis,pur,coalarm,'Third Party Share',opti,0
+43,assis,pur,coassis,'Remote Server',opti,1
+46,assis,pur,cotv,'Remote Server',opti,0
+48,assis,pur,coalarm,Locally,reco,1
+54,assis,pur,coalarm,'Remote Server',nothing,1
+59,alarm,pur,colight,'Remote Server',reco,1
+64,tv,pur,cowash,'Remote Server',opti,0
+70,tv,pur,cosecu,Locally,insight,1
+71,alarm,pur,corefri,'Third Party Share',reco,1
+82,tv,pur,cotv,Locally,insight,1
+91,alarm,pur,cotv,'Third Party Share',nothing,0
+98,alarm,pur,coalarm,'Remote Server',insight,0
+99,watch,pur,itself,Locally,insight,1
+102,watch,pur,itself,'Third Party Share',reco,1
+107,tv,pur,coalarm,Locally,nothing,1
+110,assis,pur,coalarm,'Third Party Share',nothing,0
+113,assis,pur,coalarm,'Third Party Share',insight,0
+128,watch,pur,cosecu,'Remote Server',nothing,1
+129,watch,pur,colight,Locally,reco,1
+139,tv,pur,corefri,Locally,reco,0
+141,watch,pur,cohvac,Locally,insight,1
+149,tv,pur,corefri,Locally,nothing,0
+157,watch,pur,coassis,'Third Party Share',opti,1
+159,assis,pur,cotv,Locally,reco,1
+241,assis,pur,cosecu,'Remote Server',nothing,1
+166,assis,pur,cowash,'Third Party Share',nothing,1
+167,watch,pur,colight,'Remote Server',nothing,1
+178,tv,pur,coassis,Locally,insight,1
+179,tv,pur,cosecu,'Third Party Share',reco,1
+189,tv,pur,colight,Locally,opti,1
+190,assis,pur,coassis,'Third Party Share',insight,0
+206,watch,pur,cotv,'Third Party Share',nothing,0
+208,tv,pur,coassis,'Remote Server',nothing,1
+210,assis,pur,cowash,'Remote Server',opti,1
+228,assis,pur,cosecu,Locally,nothing,1
+233,tv,pur,cohvac,'Third Party Share',reco,1
+268,alarm,pur,colight,'Third Party Share',reco,1
+262,alarm,pur,corefri,'Third Party Share',insight,0
+280,tv,pur,corefri,'Remote Server',insight,1
+281,assis,pur,colight,'Remote Server',nothing,1
+282,watch,pur,cohvac,'Remote Server',opti,1
+296,assis,pur,cowash,Locally,nothing,1
+301,watch,pur,colight,'Third Party Share',insight,0
+324,assis,pur,cosecu,Locally,reco,1
+310,assis,pur,corefri,'Remote Server',nothing,0
+318,watch,pur,itself,'Remote Server',nothing,1
+321,assis,pur,cohvac,Locally,nothing,1
+326,alarm,pur,cohvac,Locally,nothing,1
+328,assis,pur,cohvac,Locally,insight,1
+341,tv,pur,cotv,'Third Party Share',reco,0
+350,watch,pur,coalarm,Locally,insight,1
+355,tv,pur,colight,'Remote Server',insight,1
+363,tv,pur,corefri,Locally,opti,1
+365,assis,pur,coassis,'Third Party Share',reco,0
+375,watch,pur,cosecu,Locally,opti,1
+382,alarm,pur,cosecu,Locally,opti,0
+383,assis,pur,cohvac,'Third Party Share',opti,1
+386,alarm,pur,coassis,Locally,insight,1
+387,tv,pur,cowash,'Remote Server',reco,0
+389,assis,pur,cosecu,'Third Party Share',nothing,0
+390,tv,pur,cosecu,'Remote Server',insight,0
+400,assis,pur,coalarm,Locally,opti,1
+401,alarm,pur,coassis,'Third Party Share',reco,1
+406,tv,pur,cosecu,Locally,reco,1
+412,assis,pur,cosecu,'Third Party Share',insight,1
+413,assis,pur,coassis,'Remote Server',nothing,0
+429,tv,pur,coassis,'Third Party Share',insight,1
+430,alarm,pur,coassis,Locally,opti,1
+434,alarm,pur,cohvac,'Third Party Share',nothing,1
+439,assis,pur,cotv,'Third Party Share',reco,1
+456,tv,pur,cohvac,Locally,insight,1
+457,alarm,pur,cowash,'Remote Server',insight,0
+463,tv,pur,cohvac,'Third Party Share',insight,0
+465,alarm,pur,colight,'Third Party Share',opti,1
+470,watch,pur,coassis,Locally,opti,1
+471,tv,pur,cotv,Locally,reco,0
+473,alarm,pur,corefri,'Remote Server',opti,1
+475,tv,pur,cohvac,'Remote Server',nothing,1
+480,alarm,pur,cotv,'Third Party Share',insight,1
+486,alarm,pur,colight,Locally,opti,1
+496,assis,pur,coalarm,'Third Party Share',reco,1
+499,tv,pur,cohvac,'Third Party Share',nothing,0
+504,assis,pur,cosecu,'Remote Server',insight,1
+506,watch,pur,itself,'Third Party Share',opti,0
+507,tv,pur,cosecu,'Remote Server',opti,1
+508,tv,pur,cohvac,Locally,nothing,1
+509,alarm,pur,coalarm,Locally,opti,1
+515,tv,pur,colight,'Remote Server',nothing,1
+520,tv,pur,coassis,Locally,opti,1
+527,alarm,pur,corefri,Locally,reco,0
+528,watch,pur,cosecu,'Remote Server',insight,1
+531,alarm,pur,cosecu,Locally,insight,1
+535,alarm,pur,cotv,'Third Party Share',opti,0
+552,watch,pur,coassis,'Third Party Share',insight,1
+553,watch,pur,corefri,Locally,nothing,1
+570,tv,pur,cowash,Locally,opti,0
+573,alarm,pur,coalarm,'Remote Server',opti,1
+579,watch,pur,colight,'Third Party Share',opti,1
+580,tv,pur,cohvac,Locally,reco,1
+584,watch,pur,coassis,'Remote Server',insight,1
+585,assis,pur,coassis,Locally,insight,1
+593,alarm,pur,cohvac,'Remote Server',reco,0
+601,watch,pur,coalarm,'Third Party Share',opti,1
+615,assis,pur,coassis,Locally,nothing,1
+616,tv,pur,coassis,'Remote Server',insight,1
+649,alarm,pur,cohvac,'Third Party Share',reco,1
+679,alarm,pur,cohvac,'Remote Server',nothing,1
+640,assis,pur,corefri,Locally,reco,1
+645,assis,pur,cosecu,'Remote Server',reco,1
+646,assis,pur,cotv,Locally,opti,1
+651,watch,pur,cosecu,Locally,reco,1
+652,assis,pur,cosecu,'Third Party Share',reco,1
+653,tv,pur,cotv,'Remote Server',insight,1
+656,assis,pur,cosecu,'Remote Server',opti,1
+659,assis,pur,cotv,Locally,nothing,0
+660,alarm,pur,corefri,'Remote Server',insight,1
+671,watch,pur,cotv,Locally,nothing,1
+676,watch,pur,corefri,'Remote Server',insight,1
+680,watch,pur,cotv,Locally,opti,1
+698,tv,pur,cotv,'Third Party Share',nothing,0
+699,watch,pur,itself,'Third Party Share',nothing,0
+709,tv,pur,colight,Locally,reco,0
+713,tv,pur,coassis,'Third Party Share',nothing,0
+716,alarm,pur,coassis,'Third Party Share',nothing,0
+722,assis,pur,colight,Locally,reco,1
+726,alarm,pur,cosecu,'Remote Server',reco,0
+834,watch,pur,corefri,'Remote Server',nothing,1
+731,tv,pur,cosecu,Locally,opti,1
+737,watch,pur,coassis,'Third Party Share',nothing,1
+738,alarm,pur,cowash,'Third Party Share',insight,1
+739,assis,pur,cohvac,'Third Party Share',reco,1
+741,watch,pur,corefri,Locally,opti,1
+742,assis,pur,coassis,'Third Party Share',opti,0
+748,tv,pur,colight,'Third Party Share',insight,1
+749,assis,pur,corefri,'Third Party Share',insight,0
+753,alarm,pur,cohvac,Locally,insight,1
+757,alarm,pur,cowash,'Third Party Share',nothing,0
+759,alarm,pur,colight,'Remote Server',nothing,1
+764,tv,pur,cohvac,'Third Party Share',opti,1
+768,alarm,pur,cotv,'Remote Server',insight,0
+770,alarm,pur,cotv,'Third Party Share',reco,0
+776,alarm,pur,coalarm,'Third Party Share',opti,1
+782,alarm,pur,cohvac,'Remote Server',insight,0
+785,alarm,pur,cowash,'Third Party Share',opti,0
+792,watch,pur,coalarm,'Remote Server',reco,1
+800,tv,pur,coalarm,'Third Party Share',opti,0
+804,tv,pur,cotv,Locally,opti,1
+822,alarm,pur,coassis,'Remote Server',reco,1
+815,tv,pur,coassis,'Third Party Share',reco,1
+818,tv,pur,coalarm,Locally,reco,1
+829,alarm,pur,cosecu,Locally,nothing,1
+842,tv,pur,colight,'Third Party Share',reco,1
+848,alarm,pur,cohvac,Locally,reco,1
+855,assis,pur,corefri,'Remote Server',opti,1
+856,watch,pur,itself,Locally,nothing,1
+863,alarm,pur,cosecu,'Remote Server',opti,1
+871,alarm,pur,corefri,'Third Party Share',opti,1
+877,assis,pur,coalarm,'Remote Server',insight,0
+880,alarm,pur,coalarm,Locally,insight,1
+895,tv,pur,corefri,'Remote Server',nothing,1
+898,assis,pur,cohvac,'Third Party Share',insight,1
+908,watch,pur,coassis,'Remote Server',reco,1
+910,watch,pur,coalarm,Locally,reco,1
+918,watch,pur,cosecu,'Third Party Share',opti,0
+920,alarm,pur,coassis,'Third Party Share',opti,1
+921,alarm,pur,coalarm,Locally,nothing,0
+929,alarm,pur,corefri,'Remote Server',nothing,0
+932,watch,pur,colight,'Remote Server',reco,1
+934,tv,pur,cowash,'Remote Server',nothing,0
+936,assis,pur,coalarm,Locally,nothing,1
+942,watch,pur,cohvac,Locally,reco,1
+945,alarm,pur,colight,'Remote Server',opti,1
+961,assis,pur,coalarm,'Remote Server',opti,1
+962,assis,pur,corefri,Locally,opti,1
+964,assis,pur,colight,Locally,opti,1
+966,assis,pur,corefri,'Remote Server',reco,0
+968,watch,pur,coalarm,'Third Party Share',reco,0
+976,alarm,pur,coalarm,'Third Party Share',insight,1
+981,assis,pur,corefri,Locally,nothing,1
+996,watch,pur,itself,'Third Party Share',insight,1
+993,watch,pur,cohvac,Locally,nothing,1
+995,assis,pur,cowash,'Third Party Share',insight,0
+997,alarm,pur,cotv,'Remote Server',opti,1
+1024,watch,pur,cotv,'Third Party Share',insight,0
+1003,watch,pur,itself,'Remote Server',reco,0
+1011,alarm,pur,corefri,'Third Party Share',nothing,0
+1016,watch,pur,coassis,Locally,insight,1
+1046,watch,pur,corefri,'Remote Server',opti,0
+1079,alarm,pur,cohvac,'Third Party Share',opti,0
+1047,alarm,pur,cosecu,'Third Party Share',insight,0
+1050,assis,pur,coassis,'Remote Server',reco,1
+1051,tv,pur,corefri,'Remote Server',opti,1
+1053,tv,pur,colight,Locally,insight,1
+1055,watch,pur,coalarm,'Third Party Share',insight,0
+1087,tv,pur,coalarm,'Remote Server',insight,1
+1096,watch,pur,coassis,Locally,reco,1
+1099,tv,pur,cohvac,Locally,opti,1
+1124,alarm,pur,cowash,Locally,nothing,1
+1110,alarm,pur,cohvac,Locally,opti,1
+1116,alarm,pur,corefri,Locally,nothing,0
+1136,assis,pur,cohvac,Locally,reco,1
+1141,watch,pur,cohvac,'Third Party Share',nothing,0
+1143,tv,pur,cowash,'Third Party Share',opti,1
+1144,watch,pur,cotv,Locally,reco,1
+1153,assis,pur,cohvac,'Remote Server',insight,0
+1170,watch,pur,corefri,'Third Party Share',insight,0
+1165,tv,pur,coalarm,'Remote Server',nothing,1
+1166,alarm,pur,cowash,Locally,reco,1
+1172,assis,pur,colight,'Third Party Share',insight,1
+1181,tv,pur,cowash,Locally,insight,1
+1186,alarm,pur,colight,Locally,reco,1
+1204,watch,pur,cohvac,'Remote Server',insight,1
+1212,watch,pur,itself,Locally,reco,1
+1215,assis,pur,cohvac,Locally,opti,1
+1219,assis,pur,cowash,'Third Party Share',reco,0
+1230,tv,pur,cotv,'Third Party Share',opti,1
+1247,tv,pur,coalarm,'Third Party Share',insight,0
+1253,alarm,pur,cotv,Locally,insight,1
+1258,assis,pur,colight,'Remote Server',insight,1
+1259,watch,pur,cohvac,'Remote Server',nothing,1
+1267,alarm,pur,colight,Locally,insight,1
+1270,alarm,pur,cowash,'Remote Server',opti,1
+1272,watch,pur,cosecu,Locally,insight,1
+1288,watch,pur,coalarm,'Third Party Share',nothing,1
+1289,assis,pur,cotv,'Third Party Share',nothing,1
+1296,watch,pur,cotv,'Third Party Share',reco,0
+1301,watch,pur,cohvac,'Third Party Share',opti,1
+1302,alarm,pur,cohvac,'Third Party Share',insight,0
+1313,tv,pur,coalarm,Locally,insight,1
+1315,assis,pur,cotv,'Remote Server',insight,1
+1317,alarm,pur,coassis,'Third Party Share',insight,0
+1319,alarm,pur,cotv,Locally,reco,1
+1322,alarm,pur,coalarm,'Remote Server',reco,0
+1329,tv,pur,coassis,Locally,reco,1
+1343,assis,pur,colight,'Remote Server',opti,1
+1345,assis,pur,cotv,'Third Party Share',opti,1
+1347,assis,pur,cowash,'Third Party Share',opti,1
+1349,alarm,pur,coassis,'Remote Server',nothing,1
+1353,assis,pur,cohvac,'Remote Server',opti,1
+1357,assis,pur,coassis,Locally,opti,0
+1360,assis,pur,coassis,'Remote Server',insight,0
+1361,alarm,pur,cowash,Locally,insight,1
+1363,tv,pur,cosecu,'Third Party Share',nothing,0
+1366,watch,pur,itself,Locally,opti,1
+1372,assis,pur,colight,'Third Party Share',reco,0
+1375,watch,pur,cosecu,'Remote Server',reco,1
+1391,alarm,pur,cosecu,'Remote Server',insight,1
+1394,tv,pur,coalarm,Locally,opti,0
+1399,tv,pur,corefri,'Third Party Share',nothing,0
+1406,watch,pur,corefri,'Remote Server',reco,0
+1412,tv,pur,cohvac,'Remote Server',reco,1
+1417,alarm,pur,coassis,Locally,reco,0
+1422,tv,pur,coalarm,'Third Party Share',nothing,0
+1429,watch,pur,cohvac,'Third Party Share',insight,0
+1430,assis,pur,colight,Locally,insight,0
+1437,alarm,pur,cosecu,'Remote Server',nothing,0
+1439,watch,pur,colight,'Third Party Share',nothing,1
+1442,assis,pur,coassis,Locally,reco,1
+1446,tv,pur,coalarm,'Remote Server',reco,1
+1449,tv,pur,cowash,Locally,reco,1
+1465,assis,pur,cowash,Locally,nothing,0
+1467,alarm,pur,coalarm,'Third Party Share',reco,0
+1468,tv,pur,coassis,'Third Party Share',opti,0
+1477,alarm,pur,corefri,'Third Party Share',insight,0
+1478,watch,pur,cosecu,'Remote Server',opti,1
+1479,assis,pur,cowash,'Third Party Share',nothing,1
+1505,alarm,pur,corefri,Locally,insight,0
+1487,alarm,pur,coalarm,'Third Party Share',nothing,1
+1488,watch,pur,corefri,Locally,insight,1
+1490,watch,pur,colight,Locally,opti,1
+1493,watch,pur,coalarm,'Remote Server',insight,1
+1494,watch,pur,corefri,Locally,reco,1
+1495,watch,pur,coalarm,Locally,opti,1
+1497,alarm,pur,cotv,Locally,opti,0
+1499,alarm,pur,coassis,'Remote Server',insight,1
+1500,tv,pur,cowash,'Third Party Share',nothing,0
+1501,assis,pur,cohvac,'Remote Server',nothing,0
+1508,assis,pur,coassis,'Third Party Share',nothing,1
+1510,watch,pur,coassis,'Remote Server',nothing,1
+1513,tv,pur,cotv,'Remote Server',reco,1
+1551,alarm,pur,colight,'Third Party Share',insight,0
+1518,watch,pur,cohvac,'Third Party Share',reco,0
+1542,alarm,pur,cowash,'Third Party Share',reco,1
+1526,tv,pur,coalarm,Locally,nothing,0
+1530,watch,pur,coalarm,'Remote Server',opti,1
+1534,watch,pur,cohvac,'Remote Server',reco,1
+1539,tv,pur,coalarm,'Remote Server',opti,1
+1563,tv,pur,corefri,'Third Party Share',reco,1
+1570,assis,pur,cosecu,'Third Party Share',opti,1
+1571,alarm,pur,cosecu,Locally,reco,1
+1576,assis,pur,coalarm,'Remote Server',reco,1
+1581,tv,pur,cohvac,'Remote Server',insight,1
+1598,tv,pur,colight,'Third Party Share',nothing,1
+1620,watch,pur,cosecu,Locally,nothing,1
+1628,alarm,pur,cotv,'Remote Server',reco,1
+1641,watch,pur,coassis,'Third Party Share',reco,1
+1642,tv,pur,cowash,'Remote Server',insight,1
+1654,tv,pur,corefri,'Third Party Share',opti,0
+1655,assis,pur,corefri,'Third Party Share',opti,1
+1658,tv,pur,coassis,Locally,nothing,1
+1662,tv,pur,corefri,Locally,insight,1
+1671,assis,pur,cotv,'Remote Server',reco,1
+1723,watch,pur,cotv,'Remote Server',nothing,1
+1687,alarm,pur,corefri,'Remote Server',reco,0
+1711,tv,pur,cosecu,'Third Party Share',opti,1
+1698,alarm,pur,cosecu,Locally,nothing,1
+1707,assis,pur,colight,'Third Party Share',opti,1
+1710,alarm,pur,cohvac,'Remote Server',opti,1
+1715,alarm,pur,coassis,Locally,nothing,1
+1716,assis,pur,corefri,'Third Party Share',nothing,0
+1730,alarm,pur,coassis,'Remote Server',opti,1
+1734,tv,pur,corefri,'Third Party Share',insight,0
+1738,tv,pur,coassis,'Remote Server',opti,1
+1746,assis,pur,cotv,'Third Party Share',insight,1
+1750,watch,pur,cotv,'Remote Server',insight,1
+1752,watch,pur,cohvac,Locally,opti,1
+1757,assis,pur,cosecu,Locally,insight,0
+1760,assis,pur,cohvac,'Remote Server',reco,1
+1761,assis,pur,cohvac,'Third Party Share',nothing,0
+1763,tv,pur,cowash,Locally,nothing,1
+1765,watch,pur,coalarm,Locally,nothing,1
+1768,tv,pur,cosecu,Locally,nothing,1
+1770,watch,pur,colight,'Remote Server',insight,1
+1786,tv,pur,corefri,'Remote Server',reco,0
+1807,watch,pur,coassis,'Remote Server',opti,0
+1833,assis,pur,colight,'Third Party Share',nothing,1
+1834,alarm,pur,cotv,Locally,nothing,0
+1836,tv,pur,colight,'Remote Server',opti,1
+1837,assis,pur,cosecu,Locally,opti,1
+1844,watch,pur,colight,'Remote Server',opti,1
+1847,assis,pur,cowash,'Remote Server',reco,1
+1857,watch,pur,cosecu,'Third Party Share',nothing,1
+1860,watch,pur,cotv,'Third Party Share',opti,1
+1867,assis,pur,colight,'Remote Server',reco,1
+1872,assis,pur,cowash,'Remote Server',insight,1
+1873,tv,pur,cotv,'Third Party Share',insight,0
+1875,tv,pur,colight,'Remote Server',reco,1
+1880,watch,pur,coassis,Locally,nothing,1
+1881,alarm,pur,cowash,'Remote Server',reco,1
+1882,assis,pur,corefri,Locally,insight,1
+1883,alarm,pur,colight,'Remote Server',insight,1
+1901,tv,pur,cotv,'Remote Server',opti,0
+1887,watch,pur,cosecu,'Third Party Share',reco,1
+1892,watch,pur,corefri,'Third Party Share',opti,1
+1898,watch,pur,cotv,Locally,insight,1
+1919,watch,pur,itself,'Remote Server',opti,1
+1922,watch,pur,itself,'Remote Server',insight,1
+1923,watch,pur,cotv,'Remote Server',reco,1
+1924,assis,pur,corefri,'Remote Server',insight,1
+1925,alarm,pur,coalarm,Locally,reco,1
+1928,alarm,pur,coalarm,'Remote Server',nothing,1
+1932,assis,pur,coalarm,Locally,insight,0
+1948,watch,pur,cotv,'Remote Server',opti,0
+1954,tv,pur,cowash,'Third Party Share',reco,0
+1957,tv,pur,cowash,'Third Party Share',insight,0
+1959,alarm,pur,colight,'Third Party Share',nothing,1
+1963,tv,pur,cohvac,'Remote Server',opti,1
+1967,assis,pur,cotv,Locally,insight,0
+1969,tv,pur,cosecu,'Third Party Share',opti,0
+1971,watch,pur,corefri,'Third Party Share',nothing,0
+1978,assis,pur,cowash,Locally,opti,1
+1984,tv,pur,cosecu,'Remote Server',reco,1
+1994,alarm,pur,corefri,Locally,opti,1
+1991,alarm,pur,cosecu,'Third Party Share',nothing,0
+1995,tv,pur,coassis,'Remote Server',reco,0
+1999,alarm,pur,cowash,'Remote Server',nothing,0
+2002,assis,pur,corefri,'Third Party Share',reco,1
+2005,alarm,pur,cosecu,'Third Party Share',opti,1
+2027,alarm,pur,cosecu,'Third Party Share',reco,0
+2039,assis,pur,cohvac,Locally,insight,1

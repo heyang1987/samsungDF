@@ -15,8 +15,6 @@ public class defaultTesting {
     public static int classIndex = -1;
 	
 	public static void main(String[] args) throws Exception {
-		Instances above;
-		Instances below;
 		String[] cf;
 		cf = new String[25];
 		cf[0] = "0.01";
@@ -45,51 +43,21 @@ public class defaultTesting {
 		cf[23] = "0.24";
 		cf[24] = "0.25";
 		
-        DataSource source = new DataSource("docs/default2.arff");
+        DataSource source = new DataSource("docs/control_13_1133.arff");
         Instances allusers=source.getDataSet();
-//        if (allusers.classIndex() == -1)
-//            classIndex=allusers.numAttributes()-1;
-//        allusers.setClassIndex(classIndex);
-        above = new Instances(allusers,0);
-        below = new Instances(allusers,0);
-        
-        for (int i = 0; i < allusers.numInstances(); i = i + 12) {
-        	Instances user = new Instances(allusers, i, 12);
-        	int counter = 0;
-        	for (int j = 0; j < user.numInstances(); j++) {
-        		if ((int)user.instance(j).value(user.numAttributes()-1)==0) {
-					counter++;
-				}
-        	}
-        	if (counter>=0) 
-        		//System.out.println((int)allusers.instance(i).value(0)+"\t"+counter);
-        		above = merge(above, user);
-        	else
-        		below = merge(below, user);
-        }
-        
+        allusers = removeSessionID(allusers);
+        //System.out.println(allusers);
         int i = 0;
-        above = removeSessionID(above);
-        below = removeSessionID(below);
         for (i=0; i<25; i++) {
-	        Classifier fc = trainWithOption(above, cf[i]);
+	        Classifier fc = trainWithOption(allusers, cf[i]);
 	        String cls = fc.toString();
 	        int treeSize = Integer.parseInt( cls.substring(cls.length()-4, cls.length()-1).replaceAll(".*[^\\d](?=(\\d+))","") );
-	        //double accuracy = eval(fc, allusers, allusers);
-	        double accuracy = evalCrossValidation(fc, above);
+	        double accuracy = ( selfCVEval(allusers)+selfCVEval(allusers)+selfCVEval(allusers)+selfCVEval(allusers)+selfCVEval(allusers)+selfCVEval(allusers)+selfCVEval(allusers)+selfCVEval(allusers)+selfCVEval(allusers)+selfCVEval(allusers)
+	        +selfCVEval(allusers)+selfCVEval(allusers)+selfCVEval(allusers)+selfCVEval(allusers)+selfCVEval(allusers)+selfCVEval(allusers)+selfCVEval(allusers)+selfCVEval(allusers)+selfCVEval(allusers)+selfCVEval(allusers))/20;
 	        System.out.println(cf[i]+"\t"+treeSize+"\t"+(double)Math.round(accuracy*100)/100 );
 	        System.out.println(cls);
 		}
-//        System.out.println("===============================================================================");
-//        for (i=0; i<25; i++) {
-//	        Classifier fc = trainWithOption(below, cf[i]);
-//	        String cls = fc.toString();
-//	        int treeSize = Integer.parseInt( cls.substring(cls.length()-4, cls.length()-1).replaceAll(".*[^\\d](?=(\\d+))","") );
-//	        //double accuracy = eval(fc, allusers, allusers);
-//	        double accuracy = evalCrossValidation(fc, below);
-//	        System.out.println(cf[i]+"\t"+treeSize+"\t"+(double)Math.round(accuracy*100)/100 );
-//	        System.out.println(cls);
-//		}
+
 	}
 	
 	public static Instances removeSessionID(Instances pre) throws Exception {
